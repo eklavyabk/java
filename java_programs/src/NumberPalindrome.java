@@ -14,6 +14,10 @@ public class NumberPalindrome {
             num = num/10;
         }
 
+//        StringBuilder sb = new StringBuilder(String.valueOf(num));
+//        StringBuilder re = sb.reverse();
+//        int rev = Integer.parseInt(String.valueOf(re));
+
         if(org_num==rev){
             System.out.println("Its a palindrome");
         }else{
