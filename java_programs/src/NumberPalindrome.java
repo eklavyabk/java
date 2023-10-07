@@ -19,7 +19,7 @@ public class NumberPalindrome {
 //        int rev = Integer.parseInt(String.valueOf(re));
 
         if(org_num==rev){
-            System.out.println("Its a palindrome");
+            System.out.println("Its a palindrome ");
         }else{
             System.out.println("Its not a palindrome");
         }

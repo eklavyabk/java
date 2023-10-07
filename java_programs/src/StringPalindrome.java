@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StringPalindrome {
     public static void main(String[] args) {
-        System.out.println("Enter: ");
+        System.out.println("Enter : ");
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
 

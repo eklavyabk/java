@@ -8,7 +8,7 @@ public class PrimeNumbers {
         if (isPrime(num)) {
             System.out.println(num + " is a prime number");
         } else {
-            System.out.println(num + " not a prime number");
+            System.out.println(num + " not a prime number ");
         }
     }
 

@@ -21,7 +21,7 @@ public class CountNumberOfEvenOdd {
         }
 
         System.out.println("The count of even numbers : "+evenCount);
-        System.out.println("The count of odd numbers: "+oddCount);
+        System.out.println("The count of odd numbers : "+oddCount);
 
     }
 }

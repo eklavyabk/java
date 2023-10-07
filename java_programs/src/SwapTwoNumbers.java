@@ -5,7 +5,7 @@ public class SwapTwoNumbers {
         int a = 10;
         int b = 20;
 
-        System.out.println("Before Swapping a: "+a +",b: "+b);
+        System.out.println("Before Swapping a : "+a +",b: "+b);
 
         // method1: using third variable
 
