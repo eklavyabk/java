@@ -18,6 +18,17 @@ public class NumberPalindrome {
 //        StringBuilder re = sb.reverse();
 //        int rev = Integer.parseInt(String.valueOf(re));
 
+        //or
+
+     /*   StringBuilder sb = new StringBuilder(Integer.toString(num));
+        StringBuilder rev = sb.reverse();
+
+        if(num==Integer.parseInt(rev.toString())){
+            System.out.println("Its a plaindrome");
+        }
+
+      */
+
         if(org_num==rev){
             System.out.println("Its a palindrome ");
         }else{
