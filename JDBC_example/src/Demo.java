@@ -81,7 +81,7 @@ public class Demo {
 
 
         //Step1: Create a connection
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee_directory",
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bk",
                 "root","root");
 
         //Step2: Create a statement
@@ -96,10 +96,13 @@ public class Demo {
             String last_Name = rs.getString(3);
             String email = rs.getString(4);
 
-            System.out.println("Id >> "+id);
-            System.out.println("Name >> "+first_Name);
-            System.out.println("Surname >> "+last_Name);
-            System.out.println("email >> "+email);
+//            System.out.println("Id >> "+id);
+//            System.out.println("Name >> "+first_Name);
+//            System.out.println("Surname >> "+last_Name);
+//            System.out.println("email >> "+email);
+
+            System.out.println("Id: "+id+"\nName: "+first_Name+"\nSurname: "+last_Name+"\nemail: "+email);
+
             System.out.println("-----------------------------------------");
 
 
